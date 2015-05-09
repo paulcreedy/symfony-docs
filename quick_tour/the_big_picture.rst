@@ -75,6 +75,13 @@ This command downloads the latest Symfony stable version and creates an
 empty project in the ``myproject/`` directory so you can start developing
 your application right away.
 
+You now need to install the Assets otherwise the css and images wont show up.
+
+.. code-block:: bash
+
+    # Windows
+    c:\> php app/console asset: install web
+
 .. _running-symfony2:
 
 Running Symfony
